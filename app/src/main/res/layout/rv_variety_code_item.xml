@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!--CardView that holds the elements
+            of the child RecyclerView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                        <!--Text in the CardView-->
+                        <TextView
+                            android:id="@+id/r1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:id="@+id/r2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:id="@+id/r3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textSize="18sp"/>
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+</FrameLayout>
